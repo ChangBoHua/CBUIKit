@@ -16,13 +16,13 @@
 #pragma mark - For UILabel
 
 + (UILabel *)createLabelWithTextColor:(UIColor *)textColor
-fontSize:(CGFloat)fontSize;
+                             fontSize:(CGFloat)fontSize;
 #pragma mark - For UIView
 
 + (UIView *)createViewWithBgColor:(UIColor *)bgColor;
 
 + (UIView *)createViewWithBgColor:(UIColor *)bgColor
-cornerRadius:(CGFloat)cornerRadius;
+                     cornerRadius:(CGFloat)cornerRadius;
 
 #pragma mark - For UIButton
 
