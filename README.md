@@ -27,13 +27,13 @@ cornerRadius:(CGFloat)cornerRadius;
 #pragma mark - For UIButton
 
 + (UIButton *)createButtonWithTitle:(NSString *)title
-fontSize:(CGFloat)fontSize
-titleColor:(UIColor *)titleColor;
+                           fontSize:(CGFloat)fontSize
+                         titleColor:(UIColor *)titleColor;
 
 + (UIButton *)createButtonWithTitle:(NSString *)title
-fontSize:(CGFloat)fontSize
-titleColor:(UIColor *)titleColor
-cornerRadius:(CGFloat)cornerRadius;
+                           fontSize:(CGFloat)fontSize
+                         titleColor:(UIColor *)titleColor
+                       cornerRadius:(CGFloat)cornerRadius;
 
 #pragma mark - For UIImageView
 
@@ -44,18 +44,19 @@ cornerRadius:(CGFloat)cornerRadius;
 #pragma mark - For UITableView
 
 + (UITableView *)createTableViewWithStyle:(UITableViewStyle)style
-separatorStyle:(CGFloat)separatorStyle;
+                           separatorStyle:(CGFloat)separatorStyle;
 
 #pragma mark - For UITextField
 
 + (UITextField *)createTextFieldWithPlaceholder:(NSString *)placeholder
-textColor:(UIColor *)textColor;
+                                      textColor:(UIColor *)textColor;
 
 #pragma mark - For UITextView
 
 + (UITextView *)createTextViewWithTextColor:(UIColor *)textColor
-fontSize:(CGFloat)fontSize;
+                                   fontSize:(CGFloat)fontSize;
 
 ```
-> 慢慢的在整理项目中的一些基础代码，优化写法，算是一个小总结吧~ 不喜勿喷~
+
+> 慢慢的在整理项目中的一些基础代码，优化写法，算是一个小总结吧~ 
 
