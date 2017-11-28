@@ -1,9 +1,14 @@
+# CBUIKit
 
 * 名称：CBUIKit
 
 * 作用：快速创建常用的UI，使代码更加整洁并且提供开发效率~
 
 * 作者：昶博
+
+## 演示图
+
+![演示图片](https://github.com/ChangBoHua/CBUIKit/blob/master/demo.gif)
 
 ## 初始化方法（这个不统一，你可以根据自己的习惯进行添加，这个是我平时使用的）
 
@@ -52,3 +57,5 @@ textColor:(UIColor *)textColor;
 fontSize:(CGFloat)fontSize;
 
 ```
+> 慢慢的在整理项目中的一些基础代码，优化写法，算是一个小总结吧~ 不喜勿喷~
+
