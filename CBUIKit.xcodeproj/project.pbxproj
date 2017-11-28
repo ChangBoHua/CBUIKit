@@ -15,6 +15,7 @@
 		856452EB1FCD0E62007138CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856452E91FCD0E62007138CC /* LaunchScreen.storyboard */; };
 		856452F61FCD0E62007138CC /* CBUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856452F51FCD0E62007138CC /* CBUIKitTests.m */; };
 		856453011FCD0E62007138CC /* CBUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 856453001FCD0E62007138CC /* CBUIKitUITests.m */; };
+		856453101FCD0E7A007138CC /* CBUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8564530F1FCD0E7A007138CC /* CBUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		856452FC1FCD0E62007138CC /* CBUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		856453001FCD0E62007138CC /* CBUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBUIKitUITests.m; sourceTree = "<group>"; };
 		856453021FCD0E62007138CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8564530E1FCD0E7A007138CC /* CBUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBUIKit.h; sourceTree = "<group>"; };
+		8564530F1FCD0E7A007138CC /* CBUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBUIKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				856452E71FCD0E62007138CC /* Assets.xcassets */,
 				856452E91FCD0E62007138CC /* LaunchScreen.storyboard */,
 				856452EC1FCD0E62007138CC /* Info.plist */,
+				8564530E1FCD0E7A007138CC /* CBUIKit.h */,
+				8564530F1FCD0E7A007138CC /* CBUIKit.m */,
 				856452DB1FCD0E62007138CC /* Supporting Files */,
 			);
 			path = CBUIKit;
@@ -276,6 +281,7 @@
 				856452E31FCD0E62007138CC /* ViewController.m in Sources */,
 				856452E01FCD0E62007138CC /* AppDelegate.m in Sources */,
 				856452DD1FCD0E62007138CC /* main.m in Sources */,
+				856453101FCD0E7A007138CC /* CBUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
